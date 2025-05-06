@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFF4E6;
+}
+span {
+    font-size: 12px;
+}
+#LeftPart {
+    flex: 1;
+    padding: 20px;
+}
+#RightPart {
+    flex: 1;
+    padding: 20px;
+}
+#Photo {
+    height: 199px;
+    width: 148px;
+    border-radius: 19px;
+}
+h1 {
+    font-size: 16px;
+}
+/*КОНТАКТЫ*/
+#Contacts {
+    color: #D35400;
+    display: flex;
+}
+.ContactsItem {
+    gap: 3px;
+    margin-left: 20px;
+    color: #222222;
+    font-size: 12px;
+}
+/*ЯЗЫКИ*/
+#Languages {
+    color: #B34700;
+    display: flex;
+    gap: 3px;
+}
+.LanguageItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+    color: #222222;
+}
+/*ИНТЕРЕСУЮЩИЕ НАПРАВЛЕНИЯ*/
+#InterestAreas {
+    display: flex;
+    color: #FF8533;
+    text-align: center;
+    gap: 3px;
+}
+.InterestAreasItem {
+    margin-left: 20px;
+    color: #555555;
+}
+/*ПРОФЕССИЯ*/
+#Profession {
+    display: flex;
+    color: #FF6B00;
+    gap: 5px;
+}
+#ProfessionInfo {
+    color: #222222;
+    margin-left: 20px;
+}
+/*ИНТЕРЕСЫ*/
+#Interests {
+    display: flex;
+    gap: 6px;
+    color: #FF9933;
+}
+.InterestsItem {
+    color: #555555;
+    margin-left: 20px;
+}
+/*О СЕБЕ*/
+#AboutMyself {
+    display: flex;
+    color: #FF5500;
+    gap: 7px
+}
+.AboutMyselfItem {
+    color: #333333;
+    margin-left: 4px;
+}
+/*ОБРАЗОВАНИЕ*/
+#Education {
+    display: flex;
+    color: #CC6600;
+    gap: 4px;
+}
+#EducationPart1 {
+    color: #222222;
+    margin-left: 20px;
+}
+#EducationPart2 {
+    color: #444444;
+    margin-left: 20px;
+}
+/*НАВЫКИ*/
+#Skills {
+    display: flex;
+    color: #FF7700;
+    gap: 7px;
+}
+.SkillsItem {
+    color: #555555;
+    margin-left: 20px;
+    align-items: center;
+}
+/*ИЗУЧАЕМЫЕ ЯЗЫКИ ПРОГРАММИРОВАНИЯ*/
+#ProgrammingLanguages {
+    display: flex;
+    color: #E65C00;
+    gap: 5px;
+}
+.ProgrammingLanguagesItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+    color: #222222;
+}
